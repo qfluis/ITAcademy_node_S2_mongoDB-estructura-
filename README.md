@@ -5,3 +5,5 @@ fichero optica.js
 ```
 npm run optica
 ```
+Diagrama
+![Diagrama](https://github.com/qfluis/ITAcademy_node_S2_mongoDB-estructura-/blob/main/ejemplo.png)
