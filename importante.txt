@@ -1,0 +1,4 @@
+Omar Olmedo - Mentor — hoy a las 9:51
+Para ejecutar desde la terminal los scripts de bases de datos:
+
+localhost:27017/nombredelabasededatos script.js
