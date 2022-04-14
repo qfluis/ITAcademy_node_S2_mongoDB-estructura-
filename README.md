@@ -19,3 +19,13 @@ npm run pizzeria
 ```
 #### Diagrama
 ![Diagrama](diagramas/pizzeria.drawio.png)
+## Nivel 2
+### Ejercicio 1 - Youtube
+#### Script
+fichero con script de generación de BD **youtube.js**
+Para ejecutarlo:
+```
+npm run youtube
+```
+#### Diagrama
+![Diagrama](diagramas/youtube.drawio.png)

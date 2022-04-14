@@ -5,7 +5,8 @@
   "main": "optica.js",
   "scripts": {
     "optica":"mongo optica optica.js",
-    "pizzeria":"mongo pizzeria pizzeria.js"
+    "pizzeria":"mongo pizzeria pizzeria.js",
+    "youtube":"mongo youtube youtube.js"
   },
   "repository": {
     "type": "git",
