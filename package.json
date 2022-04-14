@@ -4,7 +4,8 @@
   "description": "",
   "main": "optica.js",
   "scripts": {
-    "optica":"mongo optica optica.js"
+    "optica":"mongo optica optica.js",
+    "pizzeria":"mongo pizzeria pizzeria.js"
   },
   "repository": {
     "type": "git",

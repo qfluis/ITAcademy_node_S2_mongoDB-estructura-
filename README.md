@@ -10,3 +10,12 @@ npm run optica
 ```
 #### Diagrama
 ![Diagrama](diagramas/optica.drawio.png)
+### Ejercicio 2 - Pizzeria
+#### Script
+fichero con script de generación de BD **pizzeria.js**
+Para ejecutarlo:
+```
+npm run pizzeria
+```
+#### Diagrama
+![Diagrama](diagramas/pizzeria.drawio.png)
