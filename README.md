@@ -29,3 +29,13 @@ npm run youtube
 ```
 #### Diagrama
 ![Diagrama](diagramas/youtube.drawio.png)
+## Nivel 3
+### Ejercicio 1 - spotify
+#### Script
+fichero con script de generación de BD **spotify.js**
+Para ejecutarlo:
+```
+npm run spotify
+```
+#### Diagrama
+![Diagrama](diagramas/spotify.drawio.png)
