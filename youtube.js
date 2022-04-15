@@ -48,14 +48,12 @@ db.usuario.insertMany([
                 ]
             }
         ],
-        canales: [
-            {
+        canal: { /* un canal por usuario */
                 _id: ObjectId("458525ff55ff55f48ccccc03"),
                 nombre: "ElCanalDeLaManchaGameplays",
                 descripcion: "Epico canal de gambaplays",
                 fechaCreacion: new Date("2021-01-01")
-            }
-        ],
+        },
         suscripciones: [
             {
                 nombre:"CanalBle",
