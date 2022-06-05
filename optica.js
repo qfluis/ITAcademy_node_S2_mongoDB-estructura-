@@ -28,8 +28,8 @@ db.proveedores.insertMany([
                     {
                         _id: ObjectId("458525ff55ff55f48aaaaa02"),
                         nombre_modelo:"Fashion 234",
-                        graduacion_d: 15.0,
-                        graduacion_i: 15.0,
+                        graduacion_d_max: 15.0,
+                        graduacion_i_max: 15.0,
                         tipo_montura:"flotante",  /*flotante - pasta - metalica*/
                         color_montura: "rojo fuego",
                         color_vidrios: "transparente",
@@ -38,8 +38,8 @@ db.proveedores.insertMany([
                     {
                         _id: ObjectId("458525ff55ff55f48aaaaa09"),
                         nombre_modelo:"Fashion 444",
-                        graduacion_d: 15.0,
-                        graduacion_i: 15.0,
+                        graduacion_d_max: 15.0,
+                        graduacion_i_max: 15.0,
                         tipo_montura:"metalica",  /*flotante - pasta - metalica*/
                         color_montura: "azul marino",
                         color_vidrios: "cromados",
@@ -69,8 +69,8 @@ db.proveedores.insertMany([
             gafas: [{
                 _id: ObjectId("458525ff55ff55f48aaaaa08"),
                 nombre_modelo:"Q-TR3R",
-                graduacion_d: 14.0,
-                graduacion_i: 14.0,
+                graduacion_d_max: 14.0,
+                graduacion_i_max: 14.0,
                 tipo_montura:"pasta",  /*flotante - pasta - metalica*/
                 color_montura: "verde oliva",
                 color_vidrios: "mate",
@@ -133,6 +133,8 @@ db.empleados.insertMany([
                 nombre_modelo:"Fashion 234",
                 nombre_cliente: "Luis Q",
                 id_gafas_vendidas: ObjectId("458525ff55ff55f48aaaaa02"), /* Por si necesitamos más info */
+                graduacion_d: 5.0,
+                graduacion_i: 4.0,
                 id_cliente: ObjectId("458525ff55ff55f48aaaaa03")
             },
             {
@@ -140,6 +142,8 @@ db.empleados.insertMany([
                 nombre_modelo:"Q-TR3R",
                 nombre_cliente: "Peter",
                 id_gafas_vendidas: ObjectId("458525ff55ff55f48aaaaa08"), /* Por si necesitamos más info */
+                graduacion_d: 3.0,
+                graduacion_i: 4.25,
                 id_cliente: ObjectId("458525ff55ff55f48aaaaa04")
             }
 
