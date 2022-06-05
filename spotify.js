@@ -1,4 +1,4 @@
-db = db.getSiblingDB('spotify');
+//db = db.getSiblingDB('spotify');
 db.usuario.drop();
 db.usuario.insertMany([
     {

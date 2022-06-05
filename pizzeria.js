@@ -1,4 +1,4 @@
-db = db.getSiblingDB('pizzeria');
+//db = db.getSiblingDB('pizzeria');
 db.clientes.drop();
 db.clientes.insertMany([
     {

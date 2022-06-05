@@ -3,7 +3,7 @@ https://www.tutorialesprogramacionya.com/mongodbya/detalleconcepto.php?punto=26&
 https://www.mongodb.com/docs/manual/
 */
 
-db = db.getSiblingDB('optica');
+//db = db.getSiblingDB('optica');
 db.proveedores.drop();
 db.proveedores.insertMany([
     {

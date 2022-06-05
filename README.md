@@ -39,3 +39,14 @@ npm run spotify
 ```
 #### Diagrama
 ![Diagrama](diagramas/spotify.drawio.png)
+
+
+TODO:ELIMINAR
+#Feedback Omar
+N1-E1
+
+- En la optica es un poco raro que relaciones clientes con sus gafas a traves del empleado, podria estar directamente el id del cliente en las gafas
+
+- en la pizzeria eliminaria las tablas de categorias y la de provincias (no es mucha duplicidad de datos que esten directamente dentro de sus progenitores y asi se simplifica el diseño)
+
+El resto bastante correcto, buen trabajo!
